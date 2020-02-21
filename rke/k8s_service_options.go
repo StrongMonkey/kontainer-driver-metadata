@@ -13,7 +13,7 @@ const (
 
 func loadK8sVersionServiceOptions() map[string]v3.KubernetesServicesOptions {
 	return map[string]v3.KubernetesServicesOptions{
-		"v1.17": {
+		"v1.18": {
 			Etcd:           getETCDOptions117(),
 			KubeAPI:        getKubeAPIOptions116(),
 			Kubelet:        getKubeletOptions116(),
